@@ -1,35 +1,72 @@
-# NexT
+# Tale
 
-> 精于心，简于形
+[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Features
+- Easy installation
+- Compatible with GitHub Pages
+- Responsive design (looks just as good on mobile)
+- Syntax highlighting, with the help of Pygments
+- Markdown and HTML text formatting
+- Pagination of posts
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+## Installation
+### As a Jekyll theme
+1. Add this line to your `Gemfile`:
 
+```ruby
+gem "tale"
+```
 
-## 浏览器支持 Browser support
+2. In `_config.yml` replace the `minima` theme with `tale`:
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+```yaml
+theme: tale
+```
 
+3. Install the theme's gems and dependencies:
 
-## 贡献 Contributing
+```bash
+$ bundle
+```
 
-欢迎提交问题与需求，修复代码。
+4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
 
+5. Add these 2 lines in to `_config.yml`:
 
-## 开发 Development
+```yaml
+permalink:      /:year-:month-:day/:title
+paginate:       5
+```
 
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
+### As a Fork
+1. Fork this repository
 
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
+2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `tale.gemspec`
 
+3. Delete the `baseurl` line in `_config.yml`:
 
-## 捐赠
+```yaml
+baseurl:        "/tale"   # delete this line
+```
 
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
+## Usage
+Once you've installed the theme, you're ready to work on your Jekyll site. To start off, I would recommend updating `_config.yml` with your site's details.
 
-![支付宝扫码捐赠](http://p1.bpimg.com/567571/9a4a158daee8aa69.png)
+To build and serve your site, run:
+
+```bash
+$ bundle exec jekyll serve
+```
+
+And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
+
+## Contributing
+Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
+
+## License
+See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
