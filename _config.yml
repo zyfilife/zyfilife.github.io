@@ -1,35 +1,27 @@
-title: 朱益锋的技术博客
-description: > # this means to ignore newlines until "baseurl:"
-  iOS开发随笔
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# Site settings
+title:          朱益锋的技术博客
+description:    "iOS开发笔记"
+baseurl:        ""
+url:            ""
 
-# Author Settings
-author: 朱益锋 # add your name
-author-img: 15356032778.jpg # add your photo
-about-author: 写代码，一方面是技术，一方面是艺术。技术靠钻，艺术靠悟。 # add description
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-github: zyfilife # add your Github handle
-linkedin: # add your Linkedin handle
-email: 99461312@qq.com # add your Email address
+# Author
+author:
+  name:         朱益锋
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+# Build settings
+markdown:       kramdown
 
-# Tracker
-analytics: # Google Analytics
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
-# Build Settings
-markdown: kramdown
+# Gems
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
