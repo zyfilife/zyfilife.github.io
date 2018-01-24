@@ -1,14 +1,14 @@
 # Site settings
 title:          朱益锋的技术博客
-description:    "iOS开发笔记"
+description:    "iOS开发随笔"
 baseurl:        ""
-url:            ""
+url:            "https://zyfilife.github.io"
 
 # Author
 author:
   name:         朱益锋
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  url:          https://github.com/zyfilife
+  email:        994613212@qq.com
 
 # Build settings
 markdown:       kramdown
@@ -25,3 +25,18 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: 朱益锋
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/zyfilife.github.com/
