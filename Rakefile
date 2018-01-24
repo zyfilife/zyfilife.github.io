@@ -50,8 +50,10 @@ end
 
 # Save the file with the title in the YAML front matter
 def write_file(content, title, directory, filename)
-  parsed_content = "#{content.sub("title:", "title: \"#{title}\"")}"
-  parsed_content = "#{parsed_content.sub("date:", "date: #{POST_TIME}")}"
+  editor = CONFIG["editor"]
+  parsed_content = "#{content.sub("标题:", "标题: #{title}")}"
+  parsed_content = "#{parsed_content.sub("创建时间:", "创建时间: #{POST_TIME}")}"
+  parsed_content = "#{parsed_content.sub("作者:", "作者: #{editor}")}"
   File.write("#{directory}/#{filename}", parsed_content)
   puts "#{filename} was created in '#{directory}'."
 end
