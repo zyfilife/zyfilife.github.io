@@ -1,0 +1,15 @@
+---
+title: 使用GithubPages搭建个人博客
+date: 2018-01-24 11:25:46
+editor: 朱益锋
+---
+
+#### 1. 新建GitHub仓库
+#### [官方教程](https://pages.github.com)
+#### 2. 安装Jekyll
+#### [Jekyll官网](https://jekyllrb.com)
+#### 3. 下载主题
+#### [博客主题模版](http://jekyllthemes.org)
+#### 4. 安装Rake
+#### [Rake](https://github.com/ruby/rake)
+
