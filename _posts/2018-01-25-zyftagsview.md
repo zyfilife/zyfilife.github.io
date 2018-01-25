@@ -65,7 +65,11 @@ editor: 朱益锋
         }
     }
     ```
-- ### `ZYFDisposeTag`根据标签模型生成包含`width` `originX`两个属性的配置模型
+- ### `ZYFDisposeTag`
+    ```
+    //根据标签模型生成包含`width` `originX`两个属性的配置模型
+    ```
+
 
 - ### `ZYFBaseTagsView` 
     
