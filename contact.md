@@ -1,16 +1,14 @@
 ---
 layout: page
-title: 作者
+title: 联系
 permalink: /contact/
 ---
-### 坐标宁波
+> ### 坐标宁波
 
-### 从事iOS开发
+> ### 从事iOS开发
 
-### 微信：zhuyifeng570
+> ### QQ: `994613212`
 
-### QQ：994613212
+> ### 微信: `zhuyifeng570`
 
-### GitHub: [https://github.com/zyfilife](https://github.com/zyfilife)
-
-### 欢迎交流
+> ### GitHub: [`https://github.com/zyfilife`](https://github.com/zyfilife)
