@@ -2,5 +2,5 @@
 layout: post
 title:
 summary: 
-featured-img:
+featured-img: emile-perron-190221_thumb
 ---
