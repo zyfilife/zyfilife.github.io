@@ -1,7 +1,7 @@
 ---
 title: ZYFNetworking
 summary: 基于AFNetworking封装的轻量级网络请求框架
-featured-img: emile-perron-190221_lg
+featured-img: emile-perron-190221
 ---
 ### 数据请求
 ```objective_c
