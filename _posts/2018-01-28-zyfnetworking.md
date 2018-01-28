@@ -41,7 +41,7 @@ summary: 基于AFNetworking封装的轻量级网络请求框架
 
 ### 错误处理
 
-```
+```objective_c
 - (BOOL)hasErrorAndCalledBack:(id)responseObject
                         error:(NSError *)error
                failureHandler:(ZYFNFailureHandler)failureHandler
@@ -124,9 +124,7 @@ summary: 基于AFNetworking封装的轻量级网络请求框架
 
 ### 数据解析
 
-```
-
-
+```objective_c
 - (NSDictionary *)getDictionaryOrCallbackWithError:(NSString *)key
                                     responseObject:(id)responseObject
                                              error:(NSError *)error
