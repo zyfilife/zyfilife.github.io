@@ -3,8 +3,7 @@ title: ZYFNetworking
 summary: 基于AFNetworking封装的轻量级网络请求框架
 ---
 ### 数据请求
-
-{% highlight Objective-C %}
+{% highlight Objective-C linenos %}
 -(void)                  get:(NSString *)urlString
               withParameters:(id)parameters
              timeoutInterval:(NSTimeInterval)timeoutInterval
