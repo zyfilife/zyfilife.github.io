@@ -1,7 +1,6 @@
 ---
+layout: post
 title:
-date:
-editor:
-img: # Add image post (optional)
-tags: # add tag
+summary: 
+featured-img:
 ---
