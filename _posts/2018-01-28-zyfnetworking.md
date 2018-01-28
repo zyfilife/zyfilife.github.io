@@ -2,6 +2,8 @@
 title: "ZYFNetworking"
 date: 2018-01-28 14:20:35
 editor: 朱益锋
+img: how-to-start.jpg # Add image post (optional)
+tags: [二次封装] # add tag
 ---
 
 > 简介：基于AFNetworking封装的轻量级网络请求框架
