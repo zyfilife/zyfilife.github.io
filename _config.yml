@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
+author: 朱益锋 # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: 坐标宁波，iOS工程师 # add description
 twitter: # add your Twitter handle
@@ -39,7 +39,7 @@ post:
 page:
   template: _page.txt
   extension: md
-editor: gvim
+editor: 朱益锋
 git:
   branch: master
 transfer:
