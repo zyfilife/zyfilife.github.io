@@ -1,38 +1,45 @@
-# Site settings
-title:          朱益锋的技术博客
-description:    "iOS开发随笔"
-baseurl:        ""
-url:            "https://zyfilife.github.io"
+title: Hello, world! I'm 朱益锋
+description: > # this means to ignore newlines until "baseurl:"
+  iOS开发笔记
+permalink: ''
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Author
-author:
-  name:         朱益锋
-  url:          https://github.com/zyfilife
-  email:        994613212@qq.com
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: 坐标宁波，iOS工程师 # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github: zyfilife # add your Github handle
+linkedin: # add your Linkedin handle
+email: 994613212@qq.com # add your Email address
 
-# Build settings
-markdown:       kramdown
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
+# Tracker
+analytics: # Google Analytics
 
-# Gems
+# Build Settings
+markdown: kramdown
 plugins:
+  - jekyll-sitemap
   - jekyll-paginate
+  - jemoji
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate: 8
+paginate_path: "/page/:num"
 
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 post:
   template: _post.txt
   extension: md
 page:
   template: _page.txt
   extension: md
-editor: 朱益锋
+editor: gvim
 git:
   branch: master
 transfer:
