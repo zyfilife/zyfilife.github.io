@@ -4,7 +4,7 @@ summary: 基于AFNetworking封装的轻量级网络请求框架
 ---
 ### 数据请求
 
-```
+{% highlight object-c %}
 -(void)                  get:(NSString *)urlString
               withParameters:(id)parameters
              timeoutInterval:(NSTimeInterval)timeoutInterval
@@ -38,7 +38,7 @@ summary: 基于AFNetworking封装的轻量级网络请求框架
                           completionHandler(task, nil, error);
                       }];
 }
-```
+{% endhighlight %}
 
 ### 错误处理
 
