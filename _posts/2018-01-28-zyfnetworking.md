@@ -4,7 +4,7 @@ summary: 基于AFNetworking封装的轻量级网络请求框架
 ---
 ### 数据请求
 
-{% highlight object-c %}
+{% highlight Objective-C %}
 -(void)                  get:(NSString *)urlString
               withParameters:(id)parameters
              timeoutInterval:(NSTimeInterval)timeoutInterval
