@@ -1,4 +1,4 @@
-title: Hello, world! I'm 朱益锋
+title: 朱益锋的技术博客
 description: > # this means to ignore newlines until "baseurl:"
   iOS开发笔记
 permalink: ''
@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: 朱益锋 # add your name
-author-img: psu.jpg # add your photo
+author-img: psu.jpeg # add your photo
 about-author: 坐标宁波，iOS工程师 # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
