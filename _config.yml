@@ -41,3 +41,17 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: 朱益锋
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/zyfilife.github.com/
