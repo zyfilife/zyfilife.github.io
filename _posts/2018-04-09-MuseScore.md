@@ -37,7 +37,13 @@ featured-img: emile-perron-190221
 	- `voice` 声部。MuseScore定为4个声部
 	- `track` 可以理解为音轨。五线谱数量乘以声部总数即为音轨总数
 	- `Ms::Element* element(int track) const { return _elist.value(track);  }` 获取Segment上制定音轨的元素
-	- 
+	- `chord->articulations()` 获取一个和弦的属性数组，用来标记这个和弦的属性，如波音、颤音、回音等等
+	
+### 功能扩展
+- 导出一个自定义的xml文件
+	
+![文件结构](/assets/img/posts/2018-04-09-musescore源码解析/score.png)
+	
 	
 最后附上[MuseScore源码](https://github.com/musescore/MuseScore/)
 
