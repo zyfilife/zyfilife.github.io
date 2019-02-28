@@ -1,4 +1,5 @@
 # Site settings
+title: 朱益锋的博客
 name: 朱益锋的博客
 email: 994613212@qq.com
 author: 朱益锋
@@ -23,3 +24,17 @@ markdown: kramdown
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: gvim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/zyfilife.github.com/
