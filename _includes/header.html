@@ -4,6 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <span class="site-title"> {{site.title | escape }}</span>
+    <nav style="font-size: 15px; float: left; margin-left: 30px; margin-top: 23px; color: gray; line-height: normal;">{{site.description}}</nav>
     <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -16,6 +17,7 @@
           </span>
         </label>
         <div class="trigger">
+            <a class="page-link" href="/blog" {% if page.url == "/blog/" %}style="color: black;"{% endif %} style="color: gray" ><font {% if page.url == "/blog/" %}style="font-size: 20px;"{% endif %} style="font-size: 17px;">博客</font></a>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
