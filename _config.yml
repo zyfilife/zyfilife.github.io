@@ -1,67 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 朱益锋的博客
+name: 朱益锋的博客
 email: 994613212@qq.com
-description: >- # this means to ignore newlines until "baseurl:"
-  一面艺术，一面技术
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  zyfilife
+author: 朱益锋
+url: 
+github: https://github.com/zyfilife/
+baseurl: ""
+description: iOS开发随笔
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: iOS开发随笔
+banner: 
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+# exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: zyfilife
 
 # Build settings
 markdown: kramdown
-theme: minima
-# pygments: true
 
-# highlighter: pygments
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-plugins:
-  - jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
-
-show_excerpts: false
-
-paginate: 8
-paginate_path: "/blog/page:num/"
-
-header_pages:
-  - index.md
-  - 分类.md
-  - 归档.md
-  - 关于.md
-
-tag_page_layout: tag_page
-tag_page_dir: tag
-
-jekyll-archives:
-  enabled: 
-    - month
-  layout: month_archive
-  permalinks:
-  month: '/archive/'
-    # tag: '/archives/tag'
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
