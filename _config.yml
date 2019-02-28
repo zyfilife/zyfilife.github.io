@@ -40,7 +40,6 @@ paginate_path: "/blog/page:num/"
 
 header_pages:
   - index.md
-  # - 分页.md
   - 分类.md
   - 归档.md
   - 关于.md
