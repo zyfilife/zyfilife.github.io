@@ -1,4 +1,5 @@
 ---
+layout: post
 title: ZYFNetworking
 summary: 基于AFNetworking封装的轻量级网络请求框架
 featured-img: emile-perron-190221
