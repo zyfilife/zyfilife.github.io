@@ -18,7 +18,7 @@ featured-img: emile-perron-190221
 
 ### 源码解析
 - MuseScore中曲谱的结构
-![曲谱结构介绍](/assets/img/posts/2018-04-09-musescore源码解析/MuseScore.png)
+	![曲谱结构介绍](/assets/img/posts/2018-04-09-musescore源码解析/MuseScore.png)
 	- 最普通的情况下, 一个Score对象由一条或二条Staff(五线谱)构成, Staff包含若干个Measure(小节),Measure包含若干个Segment(纵列), Segment包含Chord(和弦)或者Rest(休止符), Chord包含一个或若干个Note(音符), Chord也可能包含GraceNotes(装饰音和弦数组)
 	
 	- 从另一个角度看, 一个Score也可以看作一个RepeatList(重复弹奏小段数组)，RepeatList包含一个或者若干个RepeatSegment(重复弹奏的小段), RepeatSegment包含若干个Measure
@@ -41,9 +41,15 @@ featured-img: emile-perron-190221
 	
 ### 功能扩展
 - 导出一个自定义的xml文件
-	
-![文件结构](/assets/img/posts/2018-04-09-musescore源码解析/score.png)
-	
+	![文件结构](/assets/img/posts/2018-04-09-musescore源码解析/score.png)
+	- 获取节拍
+		- 节拍属性一般放在第一个小节的其中一个纵列的其中一个元素上
+	- 获取拍子速度
+		- 拍子速度属性在第一个小节的其中一个纵列的注释数组中
+	- 获取Events
+		- 依次遍历曲谱每个小节的每个纵列，获取纵列上的每个和弦，根据和弦的position，将相同position的和弦归入一个Event中，并保留在Events数组中
+	- 获取Elements
+		- 意义和Events相同，遍历Events的每个Event的每个和弦的每个音符，获取音符的每个属性
 	
 最后附上[MuseScore源码](https://github.com/musescore/MuseScore/)
 
