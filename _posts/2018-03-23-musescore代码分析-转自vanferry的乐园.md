@@ -14,7 +14,7 @@ featured-img: emile-perron-190221
 musescore软件这种形式很常见，即是一个多文档编辑器MDI，它打开的每一个乐谱是一个MdiChild。
 可以把它看成是一个乐谱文件对应的控件，即MdiChild窗口内嵌的那块区域，其父容器ScoreView即是MdiChild。
 
-```c++
+```
     Score内含：
     {
 　　  QList<Part*> _parts,  // 乐器，
