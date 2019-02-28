@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% for page in site.pages %}
+	{%- assign month = page.date | date: "%B %Y" -%}
+	{%- assign file = "day_archive.html" -%}
+	{%- if month.size > 0 -%}
+	<h2>{{ month }}</h2>
+
+	<ul class="posts">
+	{% for post in page.posts %}
+		{%- assign createtime = post.date | date: "%b %-d, %Y" -%}
+  	<li>
+   	 	<span class="post-date">{{ createtime }}</span>
+    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  	</li>
+	{% endfor %}
+	</ul>
+  	{%- endif -%}
+
+{% endfor%}
