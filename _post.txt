@@ -1,6 +1,0 @@
----
-layout: post
-title:
-summary: 
-featured-img: emile-perron-190221
----
