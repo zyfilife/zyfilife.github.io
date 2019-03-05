@@ -1,0 +1,58 @@
+title: 朱益锋的博客 # your site title
+author: 朱益锋
+email: 994613212@qq.com # email for form submission, you also have to change it in _js/scripts.js
+description: > # this means to ignore newlines until "baseurl:"
+  iOS开发随笔
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://zyfilife.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:  # replace with your_twitter_username or comment to remove link from footer
+github_username:  zyfilife # replace with your_github_username or comment to remove link from footer
+instagram_username:  # replace with your_instagram_username or comment to remove link from footer
+social:
+  name: 朱益锋
+  links:
+    - https://github.com/zyfilife
+
+disqus:
+  shortname: 朱益锋 # to enable comments replace with your_disqus_shortname
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+remote_theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.png
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-watch
+  - jekyll-sitemap
+  - jekyll-seo-tag
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: 朱益锋
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/zyfilife.github.com/
