@@ -22,10 +22,10 @@
         <time>{{ post.date | date: date_format }}</time>
       </span>
     </div>
-    {% if post.summary %}
+    <!-- {% if post.summary %}
       <p>{{ post.summary | strip_html | truncatewords:20 }}</p>
     {% else %}
       <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
-    {% endif %}
+    {% endif %} -->
   </div>
 </a>

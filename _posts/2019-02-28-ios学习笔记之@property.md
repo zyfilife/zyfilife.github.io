@@ -2,6 +2,8 @@
 layout: post
 title: "iOS学习笔记之@property" 
 tag: iOS开发笔记
+summary: 
+featured-img: emile-perron-190221
 ---
 - `strong`: 除NSString\block以外的OC对象
 ```
