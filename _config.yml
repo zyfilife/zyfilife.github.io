@@ -21,6 +21,13 @@ github_username: zyfilife
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    line_numbers: false
+    css_class: 'codehilite'
+    default_lang: java
+    block: 
+      line_numbers: false
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
