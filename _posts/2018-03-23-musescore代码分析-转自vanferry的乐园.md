@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MuseScore代码分析-转自vanferry的乐园"
+title: "MuseScore代码分析"
 summary: 公司项目需要用到这款开源软件的导出曲谱功能，因此在此记录下别人的源码分析心得
 featured-img: emile-perron-190221
 ---

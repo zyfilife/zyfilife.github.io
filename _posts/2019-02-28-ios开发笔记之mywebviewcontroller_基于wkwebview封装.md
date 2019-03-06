@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iOS开发笔记之MYWebViewController_基于WKWebView封装" 
+title: "iOS开发笔记之MYWebViewController" 
 tag: iOS开发笔记
 summary: 
 featured-img: emile-perron-190221
