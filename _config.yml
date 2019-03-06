@@ -25,10 +25,12 @@ github_username:  zyfilfe
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 theme: minima
-pages:
-  - about.md
-  - tag.md
+
 post:
   template: _post.txt
   extension: md

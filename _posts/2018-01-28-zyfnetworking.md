@@ -9,10 +9,10 @@ featured-img: emile-perron-190221
               withParameters:(id)parameters
              timeoutInterval:(NSTimeInterval)timeoutInterval
                 showDebugLog:(BOOL)showDebugLog
- responseObjectCachedHandler:(ZYFNCacheHandler) responseObjectCachedHandler
+ responseObjectCachedHandler:(ZYFNCacheHandler)responseObjectCachedHandler
            completionHandler:(ZYFNCompletionHandler)completionHandler
 {
-    if (responseObjectCachedHandler) {
+    if (responseObjectCachedHandler){
         id responseObjectCached = [_cacheManger responseObjectForUrlString:urlString
                                                                 parameters:parameters];
         responseObjectCachedHandler(responseObjectCached);
