@@ -130,11 +130,14 @@ a {
  */
 blockquote {
   color: $grey-color;
+	background-color: #f7f7f7;
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  // padding-left: $spacing-unit / 2;
+	padding: 20px;
+  // @include relative-font-size(1.125);
+	font-size: 16px;
   letter-spacing: -1px;
-  font-style: italic;
+  // font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
@@ -213,7 +216,7 @@ pre {
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
-    padding-right: 5px;
+    // padding-right: 5px;
     vertical-align: text-top;
 }
 

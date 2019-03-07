@@ -243,6 +243,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate
   minima (~> 2.0)
   tzinfo-data
 
