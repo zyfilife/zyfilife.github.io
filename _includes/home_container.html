@@ -1,0 +1,43 @@
+
+{% for post in paginator.posts %}
+<ul class="breadcrumb" style="margin-left: 0px;">
+	<li style="width: 100%"><a class="postlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span
+		 style="float: right; color: #999999; font-weight: 300;">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+</ul>
+{% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<footer style="margin-bottom: 0px; text-align: center;">
+
+
+	<ul class="pagination" style="margin: 0px;">
+		<li>
+			{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | relative_url }}">
+				&laquo;
+			</a>
+			{% else %}
+			<span style="color: rgb(105,105,105);">&laquo;</span>
+			{% endif %}
+		</li>
+		{% for page in (1..paginator.total_pages) %}
+		<li {% if page==paginator.page %} class="active" {%- endif-%}>
+			<a {% if page==1 %} href="{{ paginator.previous_page_path | relative_url }}" {%- else -%} href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
+			 {%- endif-%}>{{page}}</a>
+		</li>
+		{% endfor %}
+		<li>
+			{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | relative_url }}">
+				&raquo;
+			</a>
+			{% else %}
+			<span style="color: rgb(105,105,105);">&raquo;</span>
+			{% endif %}
+		</li>
+	</ul>
+
+
+</footer>
+{% endif %}

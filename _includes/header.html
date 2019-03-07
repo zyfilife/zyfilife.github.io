@@ -1,6 +1,18 @@
 <header class="site-header" role="banner" style="padding-top: 10px;">
 
-  <div class="container">
-    <p><a href="/" style="font-size: 30px; text-decoration: none; color: #000;">{{ site.title | escape }}</a><span style="padding-left: 16px;">{{site.description}}</span></p>
-  </div>
+	<div class="container">
+		<div style="float: left;">
+			<p>
+				<a href="/" style="font-size: 30px; text-decoration: none; color: #000;">{{ site.title | escape }}
+				</a>
+				<span style="padding-left: 16px;">{{site.description}}</span>
+			</p>
+		</div>
+		
+		<form class="navbar-form navbar-right" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" id="search-input" placeholder="搜索">
+			</div>
+		</form>
+	</div>
 </header>

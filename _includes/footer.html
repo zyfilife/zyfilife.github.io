@@ -1,12 +1,30 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="site-footer h-card" style="padding: 0px;">
+	<data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="container" style="text-align: center;">
-    {%- include social.html -%}
-  </div>
+	<div class="container" style="text-align: center;">
+		{%- include social.html -%}
+	</div>
 </footer>
 
 <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- 包括所有已编译的插件 -->
 <script src="{{ '/bootstrap-4.3.1/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+
+
+<script src="{{ site.baseurl }}/search/js/simple-jekyll-search.js"></script>
+
+<script>
+	window.simpleJekyllSearch = new SimpleJekyllSearch({
+		searchInput: document.getElementById('search-input'),
+		originalContainer: document.getElementById('originalContainer'),
+		resultsContainer: document.getElementById('results-container'),
+		resultsBackContainer: document.getElementById('resultsBackContainer'),
+		json: '{{ site.baseurl }}/search/search.json',
+		searchResultTemplate: '<ul class="breadcrumb" style="margin-left: 0px;"><li style="width: 100%"><a class="postlink" href="{url}">{title}</a></li></ul>',
+		noResultsText: '',
+		limit: 10,
+		fuzzy: false,
+		exclude: ['Welcome']
+	})
+</script>

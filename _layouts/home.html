@@ -5,48 +5,17 @@ layout: default
 {{ content }}
 <div class="container">
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-3 hidden-xs">
 			{%- include sidebar.html -%}
 		</div>
-		<div class="col-md-8" role="main">
-			<h1 class="post-title p-name" itemprop="name headline" style="margin-left: 30px; margin-bottom: 30px;">博客</h1>
-			<!-- This loops through the paginated posts -->
-			{% for post in paginator.posts %}
-			<ul class="breadcrumb">
-				<li style="width: 100%"><a class="postlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span
-					 style="float: right; color: #999999; font-weight: 300;">{{ post.date | date: "%Y-%m-%d" }}</span></li>
-			</ul>
-			{% endfor %}
-
-			<!-- Pagination links -->
-			{% if paginator.total_pages > 1 %}
-			<footer style="margin-bottom: 0px; text-align: center;">
-
-				<!-- {% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path | relative_url }}">
-					&laquo; Prev
-				</a>
-				{% else %}
-				<span>&laquo; Prev</span>
-				{% endif %} -->
-				<ul class="pagination">
-					{% for page in (1..paginator.total_pages) %}
-					<li {% if page==paginator.page %} class="active" {%- endif-%}>
-						<a {% if page==1 %} href="{{ paginator.previous_page_path | relative_url }}" {%- else -%} href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
-						 {%- endif-%}>{{page}}</a>
-					</li>
-					{% endfor %}
-				</ul>
-
-				<!-- {% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path | relative_url }}">
-					Next &raquo;
-				</a>
-				{% else %}
-				<span>Next &raquo;</span>
-				{% endif %} -->
-			</footer>
-			{% endif %}
+		<div class="col-md-9" role="main" id="originalContainer">
+			{%- include home_container.html -%}
+		</div>
+		<div class="col-md-9" role="main" id="resultsBackContainer" style="overflow: auto; display: none;">
+			<h1 class="post-title p-name" itemprop="name headline" style="margin-left: 0px; margin-bottom: 30px;">搜索结果</h1>
+			<div id="results-container">
+				
+			</div>
 		</div>
 	</div>
 </div>
