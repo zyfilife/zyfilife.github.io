@@ -8,11 +8,12 @@
 				<span style="padding-left: 16px;">{{site.description}}</span>
 			</p>
 		</div>
-		
+		{%- if page.url == "/" -%}
 		<form class="navbar-form navbar-right" role="search">
 			<div class="form-group">
 				<input type="text" class="form-control" id="search-input" placeholder="搜索">
 			</div>
 		</form>
+		{%- endif -%}
 	</div>
 </header>
