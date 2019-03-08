@@ -299,8 +299,8 @@ var _$src_8 = {};
 
   var options = {
     searchInput: null,
-		originalContainer: null,
-		resultsBackContainer: null,
+	originalContainer: null,
+	resultsBackContainer: null,
     resultsContainer: null,
     json: [],
     success: Function.prototype,

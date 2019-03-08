@@ -38,13 +38,9 @@
 		<ul style="list-style: none; margin-left: 0px;">
 			{% for node in pages_list %}
 			{% if node.title != null %}
-			{% if group == null or group == node.group %}
 			<li><a class="sidebar" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
 			{% endif %}
-			{% endif %}
 			{% endfor %}
-			{% assign pages_list = nil %}
-			{% assign group = nil %}
 		</ul>
 		{% endfor %}
 	</div>
