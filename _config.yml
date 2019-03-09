@@ -41,6 +41,8 @@ plugins:
 paginate: 10
 paginate_path: "/page:num/"
 
+baidu-analysis: 5d7a07fd51bacbd390b109903460e75b
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
