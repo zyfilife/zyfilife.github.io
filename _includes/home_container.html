@@ -1,16 +1,32 @@
-
-{% for post in paginator.posts %}
+{%- for post in paginator.posts -%}
 <ul class="breadcrumb" style="margin-left: 0px;">
-	<li style="width: 100%"><a class="postlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span
-		 style="float: right; color: #999999; font-weight: 300;">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+	<li style="width: 100%">
+		<a class="postlink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		{%- if post.tags.size > 0 -%}
+		{% assign tags = site.arrayOfTags | split: ", " %}
+		{%- for tag in post.tags -%}
+		{% case tag %}
+		{% when tags[0] %}
+		<span class="label label-primary">{{ tag }}</span>
+		{% when tags[1] %}
+		<span class="label label-success">{{ tag }}</span>
+		{% when tags[2] %}
+		<span class="label label-info">{{ tag }}</span>
+		{% when tags[3] %}
+		<span class="label label-warning">{{ tag }}</span>
+		{% else %}
+		<span class="label label-danger">{{ tag }}</span>
+		{% endcase %}
+		{%- endfor -%}
+		<!-- {%- endif -%} -->
+		<span style="float: right; vertical-align: middle; color: #999999; font-weight: 400;">{{ post.date | date: "%Y-%m-%d" }}</span>
+	</li>
 </ul>
-{% endfor %}
+{%- endfor -%}
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
 <footer style="margin-bottom: 0px; text-align: center;">
-
-
 	<ul class="pagination" style="margin: 0px;">
 		<li>
 			{% if paginator.previous_page %}

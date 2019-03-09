@@ -43,6 +43,8 @@ paginate_path: "/page:num/"
 
 baidu-analysis: 5d7a07fd51bacbd390b109903460e75b
 
+arrayOfTags: "iOS, Java, 技术分享, 软件推荐, 设计模式"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
