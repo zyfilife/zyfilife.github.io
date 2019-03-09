@@ -2,11 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-  // background: #f6f8fa;
+  background: #f6f8fa;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    // background: #f6f8fa;
+    background: #f6f8fa;
   }
 
   .c     { color: #998; font-style: italic } // Comment
@@ -85,10 +85,5 @@ code {
 pre {
   border-radius: 5px;
   padding: 16px;
-  background-color: #f6f8fa;
-	overflow-x: scroll;
 }
 
-pre > code {
-  background-color:#f6f8fa;
-}
