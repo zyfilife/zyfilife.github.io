@@ -4,7 +4,7 @@ title: "MYSheetView"
 tags: iOS
 editor: 朱益锋
 ---
-> 引言：自定义弹窗，使用简单，支持5个方向，并且可以自己实现转场动画
+> 引言：提供自定义的转场方式，支持五个方向，支持自定义宽高，同时在源码中还可以自定义弹出动画
 
 <p style="text-align: center;"><img src="/assets/img/posts/MYSheetView/MYSheetView.gif" alt="效果图"></p>
 
