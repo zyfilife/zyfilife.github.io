@@ -445,12 +445,10 @@ permalink: /my_resume/
 									<tbody>
 										<tr>
 											<td colspan="2" class="name">朱益锋</td>
-											<td align="right" class="icard">
-												ID:84217310</td>
 										</tr>
 										<tr>
 											<td valign="top">
-												<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y1.png" width="20" height="20">观望有好机会会考虑</td>
+												<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y1.png" width="20" height="20">目前正在找工作</td>
 											<td valign="top">
 												<img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y2.png" width="20" height="20">15356032778</td>
 											<td valign="top">
@@ -635,7 +633,7 @@ permalink: /my_resume/
 						<tr>
 							<td class="plate1">
 								目前年收入
-								<span>&nbsp;18.2万元</span><span class="f12">（包含基本工资、补贴、奖金、股权收益等）</span>
+								<span>&nbsp;XX.X万元</span><span class="f12">（包含基本工资、补贴、奖金、股权收益等）</span>
 							</td>
 						</tr>
 						<tr>
@@ -652,7 +650,7 @@ permalink: /my_resume/
 																	<tbody>
 																		<tr>
 																			<td class="keys2">基本工资：</td>
-																			<td valign="middle" class="txt">1.4万元
+																			<td valign="middle" class="txt">X.X万元
 																			</td>
 																		</tr>
 																	</tbody>
@@ -674,7 +672,7 @@ permalink: /my_resume/
 																	<tbody>
 																		<tr>
 																			<td class="keys">奖金/佣金：</td>
-																			<td valign="middle" class="txt">1.4万元
+																			<td valign="middle" class="txt">X.X万元
 																			</td>
 																		</tr>
 																	</tbody>
@@ -803,7 +801,7 @@ permalink: /my_resume/
 													<tbody>
 														<tr>
 															<td valign="top" class="keys">自我评价：</td>
-															<td valign="top" class="txt1">1、熟悉OC，熟悉Swift，了解Java&#x20;se<br>2、遵循iOS设计规范，提供后台接口设计方案，坚持最佳实践<br>3、2017年公司优秀员工<br>4、Github:&#x20;https://github.com/zyfilife<br>5、个人博客：https://zyfilife.github.io<br>6、简书:&#x20;https://www.jianshu.com/u/37e93d07afb1<br>7、熟悉各类业务代码、目前主要工作是项目核心技术研发<br>8、考虑如何从市场角度、用户角度去实现相关功能、业务逻辑<br>9、公司在镇海、家住鄞州区下应街道。目前想换一家离家近的公司</td>
+															<td valign="top" class="txt1">1、熟悉OC，熟悉Swift，了解Java&#x20;se<br>2、遵循iOS设计规范，提供后台接口设计方案，坚持最佳实践<br>3、2017年公司优秀员工<br>4、Github:&#x20;https://github.com/zyfilife<br>5、个人博客：https://zyfilife.github.io<br>6、熟悉各类业务代码、目前主要工作是项目核心技术研发<br>7、考虑如何从市场角度、用户角度去实现相关功能、业务逻辑<br></td>
 														</tr>
 													</tbody>
 												</table>
@@ -1092,6 +1090,18 @@ permalink: /my_resume/
 													<tr>
 														<td valign="top" class="time">2015/4-2015/7</td>
 														<td valign="top" class="rtbox"><strong>沁园网点</strong></td>
+													</tr>
+													<tr>
+														<td class="tb1" colspan="2">
+															<table cellspacing="0" cellpadding="0" border="0">
+																<tbody>
+																	<tr>
+																		<td valign="top" class="keys">所属公司：</td>
+																		<td valign="top" class="txt1">宁波市骏远信息技术服务有限公司</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
 													</tr>
 													<tr>
 														<td class="tb1" colspan="2">
