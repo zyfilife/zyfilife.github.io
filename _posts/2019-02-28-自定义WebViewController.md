@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "自定义WebViewController" 
-tag: iOS
+title: "MYWebViewController" 
+tags: iOS 基于WKWebView
 ---
 ### 准备所有UI控件
 - webView
