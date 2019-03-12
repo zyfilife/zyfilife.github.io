@@ -38,7 +38,7 @@ post:
 plugins:
   - jekyll-paginate
 
-paginate: 10
+paginate: 15
 paginate_path: "/page:num/"
 
 baidu-analysis: 5d7a07fd51bacbd390b109903460e75b

@@ -1,7 +1,9 @@
 ---
 title: ZYFNetworking
-tags: iOS 基于AFNetworking
+tags: iOS 基于AFNetworking 开源
 ---
+> 引言：基于AFNetworking二次封装， 可查看我另外一个仓库[MYNetworking](https://github.com/zyfilife/MYNetworking)
+
 ### 数据请求
 ```objective_c
 -(void)                  get:(NSString *)urlString

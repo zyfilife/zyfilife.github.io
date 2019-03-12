@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ZYFPlayer"
-tags: iOS 基于AVPlayer
+tags: iOS 基于AVPlayer 开源
 editor: 朱益锋
 ---
 > 引言：Swift写的基于AVPlayer的音视频播放器, 支持自定义播放视图，提供播放器的多种回调
