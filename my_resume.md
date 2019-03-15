@@ -801,7 +801,7 @@ permalink: /my_resume/
 													<tbody>
 														<tr>
 															<td valign="top" class="keys">自我评价：</td>
-															<td valign="top" class="txt1">1、熟悉OC，熟悉Swift，了解Java&#x20;se<br>2、遵循iOS设计规范，提供后台接口设计方案，坚持最佳实践<br>3、2017年公司优秀员工<br>4、Github:&#x20;https://github.com/zyfilife<br>5、个人博客：https://zyfilife.github.io<br>6、熟悉各类业务代码、目前主要工作是项目核心技术研发<br>7、考虑如何从市场角度、用户角度去实现相关功能、业务逻辑<br></td>
+															<td valign="top" class="txt1">iOS开发经验：4年<br>职业规划：短期规划为iOS开发+技术主管<br>1、熟悉OC，熟悉Swift，了解Java&#x20;se，了解HTML,&#x20;CSS,&#x20;JS<br>2、遵循iOS设计规范，提供后台接口设计方案，坚持最佳实践<br>3、2017年公司优秀员工<br>4、Github:&#x20;https://github.com/zyfilife<br>5、个人博客：https://zyfilife.github.io<br>6、项目涉及领域：物流、教育、音乐<br>7、熟悉各类业务代码、目前主要工作是项目核心技术研发<br>8、考虑如何从市场角度、用户角度去实现相关功能、业务逻辑</td>
 														</tr>
 													</tbody>
 												</table>
@@ -846,7 +846,7 @@ permalink: /my_resume/
 																<tbody>
 																	<tr>
 																		<td valign="top" class="keys">工作描述：</td>
-																		<td valign="top" class="txt1">负责《海伦智能陪练》iPad端和iPhone端开发<br>负责开源c++项目二次研发<br>《海伦智能陪练》项目负责人</td>
+																		<td valign="top" class="txt1">负责《海伦智能陪练》iPad端和iPhone端开发<br>负责C++开源项目《MuseScore》二次研发<br>《海伦智能陪练》项目负责人</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -965,7 +965,7 @@ permalink: /my_resume/
 																<tbody>
 																	<tr>
 																		<td valign="top" class="keys">项目描述：</td>
-																		<td valign="top" class="txt1">项目简介：钢琴教育类App，在App上展示钢琴曲谱，提供多种弹奏模式，通过蓝牙或者USB连接智能钢琴，实时收集用户弹奏数据，最后将弹奏数据分析总结后呈现给用户，帮助用户提高钢琴弹奏水平<br>开发语言：OC、Swift</td>
+																		<td valign="top" class="txt1">项目范围：钢琴教育类App<br>项目简介：在App上展示钢琴曲谱，提供多种弹奏模式，通过蓝牙或者USB连接智能钢琴，实时收集用户弹奏数据，最后将弹奏数据分析总结后呈现给用户，帮助用户提高钢琴弹奏水平<br>开发语言：OC、Swift<br>使用平台：iPad、iPhone<br>核心技术涉及框架：CoreMidi、CoreBluetooth、SVGKit<br>技术难点：钢琴高级乐理知识应用、多种弹奏模式业务逻辑梳理、打谱软件二次开发、性能优化、代码设计以及优化</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -977,7 +977,7 @@ permalink: /my_resume/
 																<tbody>
 																	<tr>
 																		<td valign="top" class="keys">责任描述：</td>
-																		<td valign="top" class="txt1">负责iPad端和iPhone端开发<br>MIDI框架应用<br>曲谱弹奏算法开发和优化<br>蓝牙、USB数据通信功能开发<br>打谱软件C++开源项目二次开发</td>
+																		<td valign="top" class="txt1">1、负责iPad端和iPhone端开发工作<br>2、组织和协调团队人员开发工作<br>3、不断深入学习钢琴乐理知识以及了解钢琴专业术语<br>4、负责打谱软件C++开源项目二次开发工作<br>5、多种弹奏模式业务逻辑优化以及新弹奏模式探索工作<br>6、数据处理以及展示性能优化工作<br>7、通过蓝牙、USB与钢琴进行数据通信功能开发工作<br>8、代码重构以及代码设计优化工作</td>
 																	</tr>
 																</tbody>
 															</table>
